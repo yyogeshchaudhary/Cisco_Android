@@ -1,0 +1,111 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e2e2e2"
+        tools:context="com.cso.myapplication.Partner">
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_height="@dimen/sell_item_height">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/company_name"
+                android:text="@string/lorem_ipsum"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/eightdp"
+                android:layout_below="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/eightdp">
+                    <ImageView
+                        android:id="@+id/total_sale_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@mipmap/total_sale"
+                        android:layout_centerVertical="true"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/total_sale_img"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/eightdp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Sale"
+                            android:textColor="@color/total_sale"
+                            android:textSize="@dimen/total_sale_title"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="INR 2500"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/total_sale_value"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:background="@color/profile_divider"/>
+                    <ImageView
+                        android:id="@+id/points_earned"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_toRightOf="@+id/divider"
+                        android:layout_margin="@dimen/eightdp"
+                        android:src="@mipmap/points_earned"
+                        android:layout_centerVertical="true"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/points_earned"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Points Earned"
+                            android:textColor="@color/total_sale"
+                            android:textSize="@dimen/total_sale_title"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="250"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/total_sale_value"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

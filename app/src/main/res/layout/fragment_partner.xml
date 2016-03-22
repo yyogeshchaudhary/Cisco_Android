@@ -1,0 +1,104 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e2e2e2"
+        tools:context="com.cso.myapplication.Partner">
+
+        <RelativeLayout
+            android:background="@mipmap/partner_bg"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/eightdp"
+            android:layout_height="@dimen/sell_item_height">
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/company_name"/>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Sale"
+                    android:textColor="@color/total_sale"
+                    android:textSize="@dimen/total_sale_title"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/total_sale_value"
+                    android:text="USD 25,000"
+                    android:textColor="@color/black"
+                    android:id="@+id/sale_amount" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eightdp"
+            android:background="#FFF"
+            android:padding="@dimen/eightdp">
+            <TextView
+                android:id="@+id/view_so"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View SO"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/view_so"/>
+            <LinearLayout
+                android:layout_below="@+id/view_so"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/view_so_button"
+                    android:layout_height="@dimen/view_so_button"
+                    android:src="@mipmap/view_so"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View SO"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Log more, earn more, Redeem more"
+                        android:textSize="16sp"
+                        android:textColor="#000"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/nomineeList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nomination List"
+            android:textSize="24sp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/eightdp"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_centerInParent="true"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,5 +1,40 @@
 <resources>
+    <dimen name="eightdp">8dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="sign_in_width">150dp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="selected_menu_width">8dp</dimen>
+    <dimen name="selected_menu_height">60dp</dimen>
+    <dimen name="menu_image">40dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- Profile -->
+    <dimen name="profile_image">120dp</dimen>
+    <dimen name="profile_image_menu">90dp</dimen>
+    <dimen name="profile_value_margin">8dp</dimen>
+    <dimen name="arrow_left">30dp</dimen>
+    <dimen name="submit_width">180dp</dimen>
+
+    <!-- Partner Dashboard -->
+    <dimen name="sell_item_height">160dp</dimen>
+    <dimen name="total_sale_title">16sp</dimen>
+    <dimen name="total_sale_value">19sp</dimen>
+    <dimen name="company_name">20sp</dimen>
+    <dimen name="view_so">22sp</dimen>
+    <dimen name="view_so_button">100dp</dimen>
+    <dimen name="nomination_header">40dp</dimen>
+    <dimen name="nomination_header_text">20sp</dimen>
+    <dimen name="nomination_search">30dp</dimen>
+    <dimen name="nominee_user">80dp</dimen>
+    <dimen name="button_height">35dp</dimen>
+    <dimen name="edit_text_height">40dp</dimen>
 </resources>

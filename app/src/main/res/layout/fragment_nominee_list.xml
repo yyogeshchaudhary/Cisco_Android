@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile_divider"
+    tools:context="cisco.services.xchange.cisco_fragments.NomineeListFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/profile_divider"
+        android:paddingBottom="@dimen/eightdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nomination_header"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/eightdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/nomination_header_text"
+                android:text="Nomination"
+                android:id="@+id/textView" />
+            <ImageView
+                android:layout_width="@dimen/nomination_search"
+                android:layout_height="@dimen/nomination_search"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/eightdp"
+                android:src="@mipmap/search"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/addNominee"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/plus"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp" />
+        <ImageView
+            android:id="@+id/disableNominee"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/minus"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="25dp" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/nomineeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

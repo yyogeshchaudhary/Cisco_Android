@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="sign_in_button">#1a3a49</color>
+    <color name="white">#FFFFFF</color>
+    <color name="menu_selected">#00FF00</color>
+    <color name="darkGrey">#212121</color>
+    <color name="profile_header">#549d8f</color>
+    <color name="profile_value">#28373d</color>
+    <color name="profile_divider">#f4f2f4</color>
+    <color name="edit_text_background">#f4f2f4</color>
+    <color name="profile_background">#1d2f39</color>
+    <color name="trasnparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="total_sale">#FF0000</color>
 </resources>
